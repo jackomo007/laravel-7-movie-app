@@ -24,7 +24,7 @@ class TvShowViewModel extends ViewModel
             'crew' => collect($this->tvShow['credits']['crew'])->take(2),
             'cast' => collect($this->tvShow['credits']['cast'])->take(10)->map(function($cast){
                 return collect($cast)->merge([
-                    'profile_path' => $cast['profile_path'] ? 'https://image.tmdb.org/t/p/w300'.$cast['profile_path'] : 'https://via.placeholder.com/300x450',
+                    'profile_path' => $cast['profile_path'] ? 'https://image.tmdb.org/t/p/w300'.$cast['profile_path'] : '/img/unknow.png',
                 ]);
             }),
             'images' => collect($this->tvShow['images']['backdrops'])->take(9),

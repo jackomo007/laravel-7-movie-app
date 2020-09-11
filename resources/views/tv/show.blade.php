@@ -111,7 +111,7 @@
                                 image = '{{'https://image.tmdb.org/t/p/original/'.$cast['file_path']}}'
                             "
                             href="#">
-                            <img src="{{'https://image.tmdb.org/t/p/w500/'.$cast['file_path']}}" class="hover:opacity-75 transition ease-in-out duration-150">
+                            <img src="{{'https://image.tmdb.org/t/p/w500/'.$cast['file_path']}}" class="hover:opacity-75 transition ease-in-out duration-150"  style="border-radius: 150px/20px;">
                         </a>
                     </div>
                 @endforeach

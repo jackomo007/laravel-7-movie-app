@@ -33,7 +33,7 @@
                 <livewire:search-dropdown>
                 <div class="md:ml-4 mt-3 md:mt-0">
                     <a href="{{ route('movies.index')}}">
-                        <img src="/img/rick.jpeg" alt="avatar" class="rounded-full w-10 h-10">
+                        <img src="https://res.cloudinary.com/dvm6sgg1h/image/upload/v1579397885/ipalo7abswainxpebxki.png" alt="avatar" class="rounded-full w-10 h-10">
                     </a>
                 </div>
             </div>
